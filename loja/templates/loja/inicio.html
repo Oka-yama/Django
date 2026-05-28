@@ -1,0 +1,11 @@
+{% extends "loja/base.html" %}
+
+{% block title %} Início | Loja {% endblock %}
+
+{% block content %}
+<section class=destaque>
+    <h1>Bem vindo à loja </h1>
+    <p>Este projeto foi criado com Django para apresentar produtos cadastrados</p>
+    <a href="{% url 'produtos' %}">Visualizar produtos</a>
+</section>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends "loja/base.html" %}
+
+{% block title %} Produtos | Loja {% endblock %}
+
+{% block content %}
+<h1>Produtos disponíveis</h1>
+<p>Nesta página serão exibidos os produtos cadastrados em nossa loja</p>
+<section class='produtos-grid'>
+    <article class='card'>
+        <h2>Notebook Educacional</h2>
+        <p>Equipamento para estudos e desenvolvimento</p>
+        <p class='preco'>R$ 2,500.00</p>
+    </article>
+    <article class='card'>
+        <h2>Mouse sem fio</h2>
+        <p>Periférico confortavel para uso diário</p>
+        <p class='preco'>R$ 90,00</p>
+    </article>
+    <article class='card'>
+        <h2>Teclado Mecânico</h2>
+        <p>Teclado ideal para programação</p>
+        <p class='preco'>R$ 280,00</p>
+    </article>
+</section>
+{% endblock %}
